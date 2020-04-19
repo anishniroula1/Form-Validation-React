@@ -1,4 +1,3 @@
-import './styles.module.scss'
 export * from './library/button/Button'
 export * from './library/common/validation-message/validation-message'
 export * from './library/questions/dropdown-question/dropdown-question'
