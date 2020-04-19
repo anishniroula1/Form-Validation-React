@@ -1,5 +1,5 @@
 import React from 'react'
-import ValidationMessage from '../../common/validation-message/validation-message'
+import { ValidationMessage } from '../../common/validation-message/validation-message'
 import './radioButton-question.scss'
 
 export const RadioButtonQuestion = ({ question, onChange, onBlur }) => {

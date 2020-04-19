@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ValidationMessage from '../../common/validation-message/validation-message'
+import { ValidationMessage } from '../../common/validation-message/validation-message'
 import './checkbox-group-question.scss'
 
 export const CheckboxGroupQuestion = ({ question, onChange, onBlur }) => {

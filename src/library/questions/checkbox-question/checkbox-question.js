@@ -1,5 +1,5 @@
 import React from 'react'
-import ValidationMessage from '../../common/validation-message/validation-message'
+import { ValidationMessage } from '../../common/validation-message/validation-message'
 import './checkbox-question.scss'
 
 export const CheckboxQuestion = ({ question, onChange, onBlur }) => {

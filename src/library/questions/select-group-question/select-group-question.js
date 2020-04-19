@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ValidationMessage from '../../common/validation-message/validation-message'
+import { ValidationMessage } from '../../common/validation-message/validation-message'
 import './select-group-question.scss'
 import { addToObject } from '../../utils/patterns'
 

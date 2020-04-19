@@ -1,5 +1,5 @@
 import React from 'react'
-import ValidationMessage from '../../common/validation-message/validation-message'
+import { ValidationMessage } from '../../common/validation-message/validation-message'
 import './dropdown-question.scss'
 
 export const DropdownQuestion = ({ question, onChange, onBlur }) => {
