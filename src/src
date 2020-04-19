@@ -1,6 +1,6 @@
 {
   "name": "validation-form-react",
-  "version": "1.0.54",
+  "version": "1.0.4",
   "description": "Made with create-react-library",
   "author": "anishniroula1",
   "license": "ISC",
@@ -15,8 +15,7 @@
     "node": ">=10"
   },
   "scripts": {
-    "build": "cp -R src/library dist/ && microbundle-crl --no-compress --format modern,cjs",
-    "start": "microbundle-crl watch --no-compress --format modern,cjs",
+    "build": "rm -rf dist && mkdir dist && cp package.json src",
     "prepublish": "run-s build",
     "test": "run-s test:unit test:lint test:build",
     "test:build": "run-s build",
@@ -55,7 +54,6 @@
     "dist"
   ],
   "dependencies": {
-    "cp-file": "^9.0.0",
     "node-sass": "^4.13.1"
   },
   "bugs": {
