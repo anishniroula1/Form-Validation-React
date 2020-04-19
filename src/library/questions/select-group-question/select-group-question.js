@@ -3,7 +3,7 @@ import { ValidationMessage } from '../../common/validation-message/validation-me
 import './select-group-question.scss'
 import { addToObject } from '../../utils/patterns'
 
-export const SelectGroupQuestion = ({ question, onChange, onBlur }) => {
+export function SelectGroupQuestion({ question, onChange, onBlur }) {
   const INITIAL_STATE = addToObject(question.data, 'isChecked', false)
   const [inputs, setInputs] = useState({
     list: INITIAL_STATE,

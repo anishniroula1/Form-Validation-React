@@ -4,7 +4,7 @@ import './textbox-question.scss'
 import { ValidationMessage } from '../../common/validation-message/validation-message'
 import { phoneMask } from '../../utils/mask'
 
-export const TextboxQuestion = ({ question, onChange, onBlur }) => {
+export function TextboxQuestion({ question, onChange, onBlur }) {
   const placeHolder = () => {
     let placeholder = ''
     if (question.type === 'tel') {

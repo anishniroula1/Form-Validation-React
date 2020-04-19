@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { ValidationMessage } from '../../common/validation-message/validation-message'
 import './checkbox-group-question.scss'
 
-export const CheckboxGroupQuestion = ({ question, onChange, onBlur }) => {
+export function CheckboxGroupQuestion({ question, onChange, onBlur }) {
   const [inputs, setInputs] = useState([])
   const handleClick = (event) => {
     const index = inputs.findIndex((item) => item === event.target.value)

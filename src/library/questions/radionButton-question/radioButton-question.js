@@ -2,7 +2,7 @@ import React from 'react'
 import { ValidationMessage } from '../../common/validation-message/validation-message'
 import './radioButton-question.scss'
 
-export const RadioButtonQuestion = ({ question, onChange, onBlur }) => {
+export function RadioButtonQuestion({ question, onChange, onBlur }) {
   return (
     <div>
       <div

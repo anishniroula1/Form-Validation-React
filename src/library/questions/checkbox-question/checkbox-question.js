@@ -2,7 +2,7 @@ import React from 'react'
 import { ValidationMessage } from '../../common/validation-message/validation-message'
 import './checkbox-question.scss'
 
-export const CheckboxQuestion = ({ question, onChange, onBlur }) => {
+export function CheckboxQuestion({ question, onChange, onBlur }) {
   const handleChange = (event) => {
     const { name, checked } = event.target
     onChange({ checkbox: true, name: name, checked: checked })

@@ -2,7 +2,7 @@ import React from 'react'
 import { ValidationMessage } from '../../common/validation-message/validation-message'
 import './dropdown-question.scss'
 
-export const DropdownQuestion = ({ question, onChange, onBlur }) => {
+export function DropdownQuestion({ question, onChange, onBlur }) {
   return (
     <div className='dropdown-question__formGroup'>
       <select
