@@ -1,4 +1,4 @@
-export default function userQuestions(values, errors) {
+export function userQuestions(values, errors) {
   return {
     email: {
       // text box

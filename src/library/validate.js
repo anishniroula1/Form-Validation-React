@@ -1,6 +1,6 @@
 import { Validators } from './utils/Validator'
 
-export default function validate(values) {
+export function validate(values) {
   const errors = {}
   if (Validators.required(values.email)) {
     errors.email = 'Email is required'

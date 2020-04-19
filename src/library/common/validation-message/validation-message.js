@@ -1,6 +1,6 @@
 import React from 'react'
 import './validation-message.scss'
-const ValidationMessage = ({ message }) => {
+export const ValidationMessage = ({ message }) => {
   return (
     <p className='validation-message__container'>
       <span className='validation-message__svg'>
@@ -9,5 +9,3 @@ const ValidationMessage = ({ message }) => {
     </p>
   )
 }
-
-export default ValidationMessage
