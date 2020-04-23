@@ -1,14 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+npm install validation-form-react --save
+##### If the Design doesn't load, from the node_module ->form-validation-react
+**Inside Dist copy below directory and paste anywhere inside your src folder**
+- button
+- common
+- library
+- questions
+- utils
 
-## Available Scripts
 
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
 ### Make Different Question file
 

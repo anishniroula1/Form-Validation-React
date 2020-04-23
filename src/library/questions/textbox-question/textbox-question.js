@@ -4,7 +4,7 @@ import './textbox-question.scss'
 import { ValidationMessage } from '../../common/validation-message/validation-message'
 import { phoneMask } from '../../utils/mask'
 
-export default function TextboxQuestion({ question, onChange, onBlur }) {
+export function TextboxQuestion({ question, onChange, onBlur }) {
   const placeHolder = () => {
     let placeholder = ''
     if (question.type === 'tel') {
@@ -20,7 +20,6 @@ export default function TextboxQuestion({ question, onChange, onBlur }) {
       return question.value || ''
     }
   }
-  // question.value = normalizeInput(question.value);
 
   return (
     <div className='textbox-question__container'>
