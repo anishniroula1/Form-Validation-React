@@ -55,7 +55,7 @@
   ],
   "dependencies": {
     "cp-file": "^9.0.0",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   },
   "bugs": {
     "url": "https://github.com/anishniroula1/form-validation-react/issues"
